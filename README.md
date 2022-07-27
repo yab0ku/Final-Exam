@@ -3,8 +3,6 @@ Lainez, Grand Vince J.
 BSCS 3B
 
 LEVEL 1: (4 points each)
-1. Differentiate between SIMD and MIMD? Explain.
-   SIMD or the Simple Instruction Multiple Data stream and MIMD or Multiple Instructions Multiple Data stream are some of the classifications of Flynn’s Taxonomy. Although they both works on different or multiple data streams, they have a big difference. SIMD only executes one instructions in every data streams, this means that the system will only do one job whatever the type of data is streamed to it. MIMD on the other hand, executes multiple instructions in multiple data streams. This architecture consists of a group of N-individual, closely connected processors. Each CPU has memory that can be shared by all processors but is inaccessible to the other processors directly and it also includes processors that operate independently and asynchronously. Various processors may be carrying out various instructions at any time on various pieces of data.
 
 4. Explain what pipelining is.
 
@@ -55,6 +53,18 @@ LEVEL 2: (5 points each)
 
 
 LEVEL 3: (6 points each, +2 points if you get 2 LEVEL 3 questions correct.)
+
+1. Differentiate between Multiprocessing and Multithreading. Explain.
+
+   Multiprocessing is a system or that works on two or more processors. Multiple CPUs are added to the system in order to boost the computing speed of the system. As a result of that, various executions and multiple processes are executed simultaneously and it is divided into two categories, symmetric and asymmetric multiprocessing. Symmetric Multiprocessing utilizes computer hardware and software that consists of two or more processors that are similar and coupled by a single memory space. These processors are treated equally and have full access to all input and output devices while in Asymmetric Multiprocessing, the access to distinct input and output (I/O) devices is available to various CPUs. For instance, one CPU might handle I/O tasks while another might concentrate on OS upkeep.
+   
+   Multithreading is a programming method that gives different code snippets to different processes. These threads of code execute simultaneously and in parallel with one another. Within a parent process, these threads share the same memory area. This decreases system memory usage, speeds up computation, and enhances application performance. We can illustrate this by having several browser tabs open when using your computer and conducting an internet search. Additionally, you might be using a desktop program to listen to music. Even though they are both running at the same time, the internet browser and the music app are two separate processes. Although your internet browser is the parent process, the numerous tabs you have open while exploring the web represent threads of that process.
+   
+   In conclusion, while multithreading employs a single process with several code segments to boost computing capacity, multiprocessing makes advantage of two or more CPUs to do so.
+   
+2. Explain the difference between Serial Computing and Parallel Computing.
+
+   Serial computing is a type of processing where there are only one processor performing. This is a type of processing in which the tasks are completed one at a time and done in a sequential order. Data transfers in a bit a bit format so it requires more time to complete a task thus the work load of the processor is high. Parallel computing on the other hand, uses multiple processors meaning we can do and complete the different tasks at the same time. We divide the tasks and distribute it into the multiple processors in order to boost the execution time and to lessen the load of the processors. We can therefore conclude that parallel computing can give higher performance, faster computation and can finish more task in a period of time than the serial computing.
 
 3. Create a function in Python that accepts two parameters. The first will be a list of numbers. The second parameter will be a string that can be one of the following values: asc, desc, and none. If the second parameter is "asc," then the function should return a list with the numbers in ascending order. If it's "desc," then the list should be in descending order, and if it's "none," it should return the original list unaltered.
 
