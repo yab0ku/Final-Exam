@@ -3,13 +3,24 @@ Lainez, Grand Vince J.
 BSCS 3B
 
 LEVEL 1: (4 points each)
+1. Differentiate between SIMD and MIMD? Explain.
+   SIMD or the Simple Instruction Multiple Data stream and MIMD or Multiple Instructions Multiple Data stream are some of the classifications of Flynn’s Taxonomy. Although they both works on different or multiple data streams, they have a big difference. SIMD only executes one instructions in every data streams, this means that the system will only do one job whatever the type of data is streamed to it. MIMD on the other hand, executes multiple instructions in multiple data streams. This architecture consists of a group of N-individual, closely connected processors. Each CPU has memory that can be shared by all processors but is inaccessible to the other processors directly and it also includes processors that operate independently and asynchronously. Various processors may be carrying out various instructions at any time on various pieces of data.
 
 4. Explain what pipelining is.
 
-   Pipelining is the breaking of task into steps executed in different processor or cores. It is the procedure of adding up instructions received from the processor via a pipeline. It enables the systematic storing and execution of instructions. Processing in a pipeline is another name for it. Pipelining is a technique that overlaps several instructions as they are being executed. This can be considered as a type of parallel of computing with different steps are executed on multiple cores with the numbers data streaming through.
+   Pipelining is the breaking of task into steps executed in different processor or cores. It is the procedure of adding up instructions received from the processor via a pipeline. It enables the systematic storing and execution of instructions. Processing in a pipeline is another name for it. Pipelining is a technique that overlaps several instructions as they are being executed. It is comparable to an assembly line of a factory in production, where many product parts are put together simultaneously, however eventually some elements would need to go together before others. The total process can benefit from those operations that can run concurrently even if there is some sequential dependency. This can be considered as a type of parallel of computing with different steps are executed on multiple cores with the numbers data streaming through.
    
-5. 
+5. Illustrate and explain what a Von Neuman Architecture is.
 
+   ![image](https://user-images.githubusercontent.com/82772962/181340964-097b36e3-5cd6-4896-8fde-05da32270208.png)
+   
+   Von Neumann Architecture as we can see in the figure above, is a computer architecture based on 1945 defined by John Von Neumann. The foundation of modern computers is the stored program paradigm, in which data and programs are stored separately in memory units and treated equally. It is a stored-program computer in which a fetch of instructions and simultaneous execution of data operations are not possible. It is primarily separated into three fundamental units: the Input and Output device, the Central Processing Unit(CPU) and the Primary Memory Unit. 
+
+   This model starts with the input device that sends data or instructions to be executed. After that, the data will be process in the CPU or in the processor. As we can see the Central Processing Unit is divided into two units, the control unit which handles the processor's control signals and the arithmetic/logic unit or ALU which performs the different calculations and operations. The memory unit  includes: accumulator, which accumulates the results of calculations conducted by the Arithmetic/Logic Unit (ALU); and Program Counter, which monitors the location in memory of the upcoming instructions. The computer then sends the following address to the memory address register (MAR).  Memory Address Register: This register keeps track of where in memory instructions need to be stored or fetched from. • Memory Data Register: This register keeps track of instructions that have been read from memory as well as any data that needs to be sent to and kept in memory. The most recently acquired instructions are kept in the current instruction register while they wait to be translated and executed, while the instructions that won't be processed right away are put in the instruction buffer register.
+   
+   After the data has been processed, the data will be displayed in Output devices in a human readable format.
+
+   
 LEVEL 2: (5 points each)
 
 2. In a right triangle, the square of the length of one side is equal to the sum of the squares of the lengths of the other two sides. Write a program that prompts the user to enter the length of the three sides of a triangle and then outputs a message indicating whether the triangle is a right triangle.
