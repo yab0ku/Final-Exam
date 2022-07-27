@@ -29,11 +29,11 @@
 
   ##### CODE:
 
-      [L2_Item2.py](https://github.com/yab0ku/FinalExam/blob/6139cb519e9b625f93f11f7934ecf9914baf5dca/FinalExam/L2_Item2.py)
+      [L2_Item2.py](https://github.com/yab0ku/FinalExam/blob/b8c4ae4481f85987701fdfe95d3276363dbaf0d6/FinalExam/L2_Item2.py)
 
   ##### OUTPUT:
 
-      ![image](https://user-images.githubusercontent.com/82772962/181285619-135a5fa7-b7ed-4880-a4a4-8275aa3825ab.png)
+      ![image](https://user-images.githubusercontent.com/82772962/181364760-3ec13d9b-eadf-4d8c-93cf-234bdcc2d7c1.png)
 
 #### 3. Write a program that prompts the user to input a number between 0 and 35. If the number is less than or equal to 9, the program should output the number; otherwise, it should output A for 10, B for 11, C for 12… and Z for 35.
 
