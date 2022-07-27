@@ -16,7 +16,7 @@ OUTPUT:
 3. Write a program that prompts the user to input a number between 0 and 35. If the number is less than or equal to 9, the program should output the number; otherwise, it should output A for 10, B for 11, C for 12… and Z for 35.
 
 CODE:
-
+https://github.com/yab0ku/FinalExam/blob/e6e015868366bfa8000d5d090d9ac32f53b1a20e/FinalExam/L2_Item3.py
     
 OUTPUT:
 ![image](https://user-images.githubusercontent.com/82772962/181289836-4e6a70f8-b2a8-4024-85fb-292de193e3d1.png)
