@@ -2,6 +2,14 @@
 Lainez, Grand Vince J.
 BSCS 3B
 
+LEVEL 1: (4 points each)
+
+4. Explain what pipelining is.
+
+   Pipelining is the breaking of task into steps executed in different processor or cores. It is the procedure of adding up instructions received from the processor via a pipeline. It enables the systematic storing and execution of instructions. Processing in a pipeline is another name for it. Pipelining is a technique that overlaps several instructions as they are being executed. This can be considered as a type of parallel of computing with different steps are executed on multiple cores with the numbers data streaming through.
+   
+5. 
+
 LEVEL 2: (5 points each)
 
 2. In a right triangle, the square of the length of one side is equal to the sum of the squares of the lengths of the other two sides. Write a program that prompts the user to enter the length of the three sides of a triangle and then outputs a message indicating whether the triangle is a right triangle.
