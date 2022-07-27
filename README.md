@@ -96,8 +96,10 @@
 
     CODE:
 
-      [L4_Item1.py](https://github.com/yab0ku/FinalExam/blob/de1cd4050067c08d19367ba4c0d6908641893f8d/FinalExam/L4_Item1.py)
+      [L4_Item1.py](https://github.com/yab0ku/FinalExam/blob/e4528bfa9cc40fcadb18936a6d27bfaf9865ed3a/FinalExam/L4_Item1.py)
 
     OUTPUT:
-      ![image](https://user-images.githubusercontent.com/82772962/181312867-19d789fb-742f-41cc-8dbd-9dd125403a9c.png)
+    
+      ![image](https://user-images.githubusercontent.com/82772962/181373268-c4b338b7-143c-4120-9818-b5020413e138.png)
+
 
