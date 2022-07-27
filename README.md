@@ -7,7 +7,7 @@ LEVEL 2: (5 points each)
 2. In a right triangle, the square of the length of one side is equal to the sum of the squares of the lengths of the other two sides. Write a program that prompts the user to enter the length of the three sides of a triangle and then outputs a message indicating whether the triangle is a right triangle.
 
 CODE:
-FinalExam/L2_Item2.py
+[FinalExam/L2_Item2.py](https://github.com/yab0ku/FinalExam/blob/6139cb519e9b625f93f11f7934ecf9914baf5dca/FinalExam/L2_Item2.py)
 
 OUTPUT:
  
