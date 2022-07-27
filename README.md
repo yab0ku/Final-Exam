@@ -50,10 +50,15 @@ LEVEL 3: (6 points each, +2 points if you get 2 LEVEL 3 questions correct.)
 LEVEL 4: (10 points each)
 
 1. Write a program that will generate 100 3-digit random numbers and store it in a list. The program should display the following:
+
       a. All elements in the list
+      
       b. All numbers grouped by odd and even numbers
+      
       c. All numbers divisible by 9.
+      
       d. All prime numbers
+      
       e. All numbers that contains the digit 9 (e.g 29, 91, 393, 961)
 
    CODE:
