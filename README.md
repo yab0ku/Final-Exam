@@ -7,7 +7,9 @@ LEVEL 2: (5 points each)
 
 Code:
 firstSide = float(input("First side: "))
+
 secondSide = float(input("Second side: "))
+
 thirdSide = float(input("Third side: "))
 
 if secondSide ** 2 + thirdSide ** 2 == firstSide ** 2:
