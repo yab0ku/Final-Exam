@@ -1,5 +1,5 @@
 # Parallel and Distributed Computing Final Exam
-## Lainez, Grand Vince J.  BSCS 3B
+## Lainez, Grand Vince J.   BSCS 3B
 
 
 ### LEVEL 1: (4 points each)
