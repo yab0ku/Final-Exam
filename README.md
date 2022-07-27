@@ -24,4 +24,13 @@ OUTPUT:
 
 ![image](https://user-images.githubusercontent.com/82772962/181289836-4e6a70f8-b2a8-4024-85fb-292de193e3d1.png)
 
+4. Write a program that will display all numbers divisible by 3, 4 and 5 from 1-50.
+
+CODE:
+
+[L2_Item4.py](https://github.com/yab0ku/FinalExam/blob/6a9c6d68547c3d59131373d732ae6aa2ff85f239/FinalExam/L2_Item4.py)
+
+OUTPUT:
+
+![image](https://user-images.githubusercontent.com/82772962/181294301-eb781c81-a620-4978-bfc5-b5f8bccea675.png)
 
