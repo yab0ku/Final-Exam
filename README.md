@@ -4,12 +4,12 @@
 
 ### LEVEL 1: (4 points each)
 
- #### 1. Differentiate between SIMD and MIMD? Explain.
+  **1. Differentiate between SIMD and MIMD? Explain.
 
     SIMD or the Simple Instruction Multiple Data stream and MIMD or Multiple Instructions Multiple Data stream are some of the classifications of Flynn’s Taxonomy. Although they both works on different or multiple data streams, they have a big difference. SIMD only executes one instructions in every data streams, this means that the system will only do one job whatever the type of data is streamed to it. MIMD on the other hand, executes multiple instructions in multiple data streams. This architecture consists of a group of N-individual, closely connected processors. Each CPU has memory that can be shared by all processors but is inaccessible to the other processors directly and it also includes processors that operate independently and asynchronously. Various processors may be carrying out various instructions at any time on various pieces of data.
 
 
- 4. Explain what pipelining is.
+ **4. Explain what pipelining is.
 
     Pipelining is the breaking of task into steps executed in different processor or cores. It is the procedure of adding up instructions received from the processor via a pipeline. It enables the systematic storing and execution of instructions. Processing in a pipeline is another name for it. Pipelining is a technique that overlaps several instructions as they are being executed. It is comparable to an assembly line of a factory in production, where many product parts are put together simultaneously, however eventually some elements would need to go together before others. The total process can benefit from those operations that can run concurrently even if there is some sequential dependency. This can be considered as a type of parallel of computing with different steps are executed on multiple cores with the numbers data streaming through.
    
