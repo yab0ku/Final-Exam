@@ -4,6 +4,7 @@ BSCS 3B
 
 LEVEL 1: (4 points each)
 1. Differentiate between SIMD and MIMD? Explain.
+
    SIMD or the Simple Instruction Multiple Data stream and MIMD or Multiple Instructions Multiple Data stream are some of the classifications of Flynn’s Taxonomy. Although they both works on different or multiple data streams, they have a big difference. SIMD only executes one instructions in every data streams, this means that the system will only do one job whatever the type of data is streamed to it. MIMD on the other hand, executes multiple instructions in multiple data streams. This architecture consists of a group of N-individual, closely connected processors. Each CPU has memory that can be shared by all processors but is inaccessible to the other processors directly and it also includes processors that operate independently and asynchronously. Various processors may be carrying out various instructions at any time on various pieces of data.
 
 4. Explain what pipelining is.
