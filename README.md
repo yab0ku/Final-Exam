@@ -2,7 +2,7 @@
 ### Lainez, Grand Vince J.  BSCS 3B
 
 
-# LEVEL 1: (4 points each)
+### LEVEL 1: (4 points each)
 
 1. Differentiate between SIMD and MIMD? Explain.
 
@@ -23,7 +23,7 @@
    After the data has been processed, the data will be displayed in Output devices in a human readable format.
 
    
-# LEVEL 2: (5 points each)
+### LEVEL 2: (5 points each)
 
 2. In a right triangle, the square of the length of one side is equal to the sum of the squares of the lengths of the other two sides. Write a program that prompts the user to enter the length of the three sides of a triangle and then outputs a message indicating whether the triangle is a right triangle.
 
@@ -56,7 +56,7 @@
       ![image](https://user-images.githubusercontent.com/82772962/181294301-eb781c81-a620-4978-bfc5-b5f8bccea675.png)
 
 
-# LEVEL 3: (6 points each, +2 points if you get 2 LEVEL 3 questions correct.)
+### LEVEL 3: (6 points each, +2 points if you get 2 LEVEL 3 questions correct.)
 
 1. Differentiate between Multiprocessing and Multithreading. Explain.
 
@@ -80,7 +80,7 @@
 
       ![image](https://user-images.githubusercontent.com/82772962/181302104-1cb033c8-a971-4db5-bd84-f77565c97998.png)
       
-# LEVEL 4: (10 points each)
+### LEVEL 4: (10 points each)
 
 1. Write a program that will generate 100 3-digit random numbers and store it in a list. The program should display the following:
 
