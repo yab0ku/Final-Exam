@@ -82,7 +82,7 @@
       
 ### LEVEL 4: (10 points each)
 
-  1. Write a program that will generate 100 3-digit random numbers and store it in a list. The program should display the following:
+1. Write a program that will generate 100 3-digit random numbers and store it in a list. The program should display the following:
 
       a. All elements in the list
       
@@ -94,12 +94,12 @@
       
       e. All numbers that contains the digit 9 (e.g 29, 91, 393, 961)
 
-    CODE:
-
-      [L4_Item1.py](https://github.com/yab0ku/FinalExam/blob/e4528bfa9cc40fcadb18936a6d27bfaf9865ed3a/FinalExam/L4_Item1.py)
-
-    OUTPUT:
-    
-      ![image](https://user-images.githubusercontent.com/82772962/181373268-c4b338b7-143c-4120-9818-b5020413e138.png)
+   CODE:
+   
+   [L4_Item1.py](https://github.com/yab0ku/FinalExam/blob/e4528bfa9cc40fcadb18936a6d27bfaf9865ed3a/FinalExam/L4_Item1.py)
+   
+   OUTPUT:
+   
+   ![image](https://user-images.githubusercontent.com/82772962/181373355-41001cc6-ea3f-4dbb-b301-e429592201f5.png)
 
 
